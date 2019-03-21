@@ -23,3 +23,9 @@ To stop the server
 ```
 docker stop 3ds2-issuer-services
 ```
+
+To connect remotely, install [mssql-cli](https://github.com/dbcli/mssql-cli/), then:
+
+```
+mssql-cli -S localhost -d IssuerServices -U sa -P 3DS2Issuer
+```
