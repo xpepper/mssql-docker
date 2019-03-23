@@ -29,3 +29,6 @@ To connect remotely, install [mssql-cli](https://github.com/dbcli/mssql-cli/), t
 ```
 mssql-cli -S localhost -d IssuerServices -U sa -P 3DS2Issuer
 ```
+
+## See also
+The nice repo by @alessio.coser https://github.com/AlessioCoser/mssql-server-linux
